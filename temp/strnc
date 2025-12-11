@@ -1,0 +1,13 @@
+#include<stdio.h>
+char my_strncpy( char *des,char *src,n)
+{
+    int i=0;
+    while(src[i])
+}
+int main()
+{
+    char *src1="hello";
+    char *des2="hello john";
+    printf("%d",my_strncpy(des,src,4));
+
+}
