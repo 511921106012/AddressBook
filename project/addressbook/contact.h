@@ -30,5 +30,13 @@ int validname(AddressBook *addresBook,char *name);
   int validphone(AddressBook *addresBook,char *phone);
    int validmail(AddressBook*addressBook,char *email);
 
+
+   // sreach contect function definition:
+     int searchname(AddressBook *addressBook);
+     
+      int searchphone(AddressBook *addressBook);
+      
+      int searchemail(AddressBook *addressBook);
+
 #endif
 
