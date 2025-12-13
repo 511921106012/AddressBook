@@ -5,6 +5,7 @@ int main()
 {
     int choice;
     AddressBook addressBook;
+    
     initialize(&addressBook); // Initialize the address book
 
     do 
@@ -16,7 +17,7 @@ int main()
         printf("4. Delete contact\n");
         printf("5. List all contacts\n");
     	printf("6. Save and Exit\n");		
-        // printf("7. Exit\n");
+        printf("7. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
         
