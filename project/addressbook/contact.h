@@ -13,7 +13,7 @@ typedef struct {//
 typedef struct {
     Contact contacts[100];
     int contactCount;// sotre tha contect 
-} AddressBook;
+} AddressBook;//store address book
 
 
 void createContact(AddressBook *addressBook);
@@ -31,3 +31,4 @@ int validname(AddressBook *addresBook,char *name);
    int validmail(AddressBook*addressBook,char *email);
 
 #endif
+
