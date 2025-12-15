@@ -10,7 +10,9 @@ int main()
 
     do 
     {
-        printf("\nAddress Book Menu:\n");
+        printf("----------------------------------------\n");
+        printf("\n     🩶  Address Book Menu\n");
+        printf("\n----------------------------------------\n");
         printf("1. Create contact\n");
         printf("2. Search contact\n");
         printf("3. Edit contact\n");
@@ -39,13 +41,17 @@ int main()
                 listContacts(&addressBook);
                 break;
             case 6:
-                printf("Saving and Exiting...\n");
-                saveContactsToFile(&addressBook);
+                printf("Saving....\n");
+                // saveContactsToFile(&addressBook);
+                // saveAndExit(&addressBook);
+                	saveContactsToFile(&addressBook);
+                break;
+                case 7:
                 break;
             default:
                 printf("Invalid choice. Please try again.\n");
         }
-    } while (choice != 6);
+    } while (choice != 7);
     
     return 0;
 }

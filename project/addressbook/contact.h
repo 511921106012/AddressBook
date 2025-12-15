@@ -23,6 +23,7 @@ void deleteContact(AddressBook *addressBook);
 void listContacts(AddressBook *addressBook);
 void initialize(AddressBook *addressBook);
 void saveContactsToFile(AddressBook *AddressBook);
+void saveAndExit(AddressBook *addressBook);
 
 
 
@@ -32,11 +33,23 @@ int validname(AddressBook *addresBook,char *name);
 
 
    // sreach contect function definition:
-     int searchname(AddressBook *addressBook);
+     void searchname(AddressBook *addressBook);
      
-      int searchphone(AddressBook *addressBook);
+      void searchphone(AddressBook *addressBook);
       
-      int searchemail(AddressBook *addressBook);
+      void searchemail(AddressBook *addressBook);
+
+
+      // edit contect function definition:
+      void editname(AddressBook *addressBook,char *name);
+      void editphone(AddressBook *addressBook,char *phone);
+      void editmail(AddressBook *addressBook,char *email);
+
+
+      //delete function call.
+
+        
+
 
 #endif
 
