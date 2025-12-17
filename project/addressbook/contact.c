@@ -30,11 +30,6 @@ void initialize(AddressBook *addressBook) {
 
 void saveAndExit(AddressBook *addressBook) {
 	saveContactsToFile(addressBook);
-    
-    
-    
-    // Save contacts to file
-	// exit(EXIT_SUCCESS); // Exit the program
 }
 
 
